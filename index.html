@@ -5,10 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    <script src="https://kit.fontawesome.com/30afc406b8.js" crossorigin="anonymous"></script>
     <script src = 'port_script.js'></script>
     <title>Portfolio Website</title>
   </head>
@@ -16,7 +13,7 @@
   <body>
     <!-- navbar -->
     <nav>
-      <h1>AK</h1>
+      <img src="./Images/icon1.avif" alt="my photo" />
       <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#about">About</a></li>
@@ -61,6 +58,9 @@
     <section id="about">
       <div class="about-col-1">
         <img src="images/photo.jpg" />
+        <div class="resume-box">
+          <a href="MyResume.pdf" target="_blank" class="btn">Download Resume <i class="fa-solid fa-download" id = "favicon"></i></a>
+        </div>
       </div>
       <div class="about-col-2">
         <h1 class="sub-title">About Me</h1>
@@ -151,7 +151,7 @@
 
     <!-- projects section -->
     <section id="projects">
-      <h1 class="sub-title">My Work</h1>
+      <h1 class="sub-title">MY PROJECTS</h1>
       <div class="work-list">
         <div class="work">
           <img
@@ -203,10 +203,10 @@
     <section id="contact">
       <div class="contact-left">
         <h1 class="sub-title">Contact Me</h1>
-        <p>
-          <i class="fa fa-envelope-o">ajaykumarak011223@gmail.com</i>
+        <p><i class="fa fa-phone" aria-hidden="true"></i>8919917714</p>
+        <p id = "font">
+          <i class="fa-solid fa-envelope"></i>ajaykumarak011223@gmail.com
         </p>
-        <p><i class="fa fa-phone" aria-hidden="true"> 8919917714</i></p>
         <ul>
           <li>
             <a
